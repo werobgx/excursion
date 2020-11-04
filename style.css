@@ -12,7 +12,7 @@
    ========================================================================== */
 
    html {
-    color: #222;
+    color: white;
     font-size: 1em;
     line-height: 1.4;
     background-color: black;
@@ -22,11 +22,18 @@
 
   h1 {
     font-size: 50px;
+    font-weight: normal;
   }
 
   h2 {
+    font-size: 42px;
+    font-weight: 300;
+  }
+
+  h3 {
     color: gray;
     font-size: 21px;
+    font-weight: normal;
   }
 
   a {
@@ -36,6 +43,20 @@
 
   .footer {
     text-align: right;
+  }
+
+  .cellphone-icon {
+    margin-top: 20px;
+  }
+
+  img, 
+  video {
+    display: block;
+    margin: auto;
+  }
+
+  video {
+    margin-top: 20px;
   }
   
   /*
